@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+    <Button
+        android:id="@+id/botonLista"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/botonSpinner"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        android:text="Listas" />
+
+    <Button
+        android:id="@+id/botonSpinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Spinners" />
+
+    <TextView
+        android:id="@+id/textViewCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Menú Controles Selección" />
+
+</RelativeLayout>
