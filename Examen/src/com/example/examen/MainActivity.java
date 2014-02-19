@@ -110,7 +110,8 @@ public class MainActivity extends Activity {
 	        		double res = 0;
 	        		String incremento = "30%";
 	        		double aux = 0;
-	        		int numero = Integer.parseInt(pesoIntroducido);
+	        		double numero = Double.parseDouble(pesoIntroducido);
+	        		//int numero = Integer.parseInt(pesoIntroducido);
 	        		
 	        		if(zonaFinal == 0){
 	        			zona = 30;
@@ -149,7 +150,7 @@ public class MainActivity extends Activity {
 	        		Bundle b = new Bundle();
 	        		b.putString("VALOR", zonaElegida);
 	        		b.putString("TARIFA", textoRadioB);
-	        		b.putDouble("PESO", resultadoTotal);
+	        		b.putDouble("RESULTADO", resultadoTotal);
 	        		b.putString("TOTAL",muestraResultado);
 	        		
 	        		intent.putExtras(b);
