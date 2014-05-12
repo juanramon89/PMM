@@ -1,6 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <item android:id="@+id/control_basico" android:title="Controles Basicos"></item>
-    <item android:id="@+id/control_seleccion" android:title="Controles de Seleccion"></item>
-    <item android:id="@+id/acercaDe" android:title="Acerca De..."></item>
-</menu>
