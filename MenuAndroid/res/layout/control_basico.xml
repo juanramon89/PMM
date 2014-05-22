@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+    <TextView
+        android:id="@+id/textViewCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Menú Controles Básicos"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/botonCheck"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewCB"
+        android:layout_below="@+id/textViewCB"
+        android:layout_marginTop="30dp"
+        android:text="CheckBox" />
+
+    <Button
+        android:id="@+id/botonRadio"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/botonCheck"
+        android:layout_centerVertical="true"
+        android:text="RadioButton" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/botonRadio"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="75dp"
+        android:layout_toLeftOf="@+id/botonHola"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/botonHola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextNombre"
+        android:layout_alignBottom="@+id/editTextNombre"
+        android:layout_alignRight="@+id/botonRadio"
+        android:text="Hola" />
+
+    <TextView
+        android:id="@+id/textViewMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/botonHola"
+        android:layout_alignLeft="@+id/editTextNombre"
+        android:text="Introduce tu nombre:"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
